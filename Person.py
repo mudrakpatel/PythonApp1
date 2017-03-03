@@ -19,4 +19,4 @@ class Person(object):
            elif Person2 > Person1:
                print("{0:2} age is greater than {1:2}'s age".format(Person2, Person1))
            else:
-                print("Both person have equal age")
+                print("Both person have equal age always")
