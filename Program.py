@@ -7,7 +7,7 @@ def main():
         dracula = Person('Alucard', 800, 'Male')
         Person.PrintDetails(mudrak)
         Person.PrintDetails(dracula)
-        Person.CompareAge(mudrak.age, dracula.age)
+        Person.CompareAge(mudrak, dracula)
     except Exception as e:
         print("Error {0}".format(str(e)))
         print("Error {0}".format(str(e.__traceback__)))
